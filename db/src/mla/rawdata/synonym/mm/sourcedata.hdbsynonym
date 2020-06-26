@@ -1,0 +1,26 @@
+{
+  "sap.bi.mla.rawdata.synonym.mm::CARD": {
+    "target": {
+      "object": "CARD",
+      "schema": "SOURCEDATA"
+    }
+  },
+  "sap.bi.mla.rawdata.synonym.mm::CARD_TRANSACTIONS": {
+    "target": {
+      "object": "CARD_TRANSACTIONS",
+      "schema": "SOURCEDATA"
+    }
+  },
+  "sap.bi.mla.rawdata.synonym.mm::CARD_TRANSACTIONS_COLD": {
+    "target": {
+      "object": "CARD_TRANSACTIONS_COLD",
+      "schema": "SOURCEDATA"
+    }
+  },
+  "sap.bi.mla.rawdata.synonym.mm::CARD_TRANSACTIONS_HOTWARM": {
+    "target": {
+      "object": "CARD_TRANSACTIONS_HOTWARM",
+      "schema": "SOURCEDATA"
+    }
+  }
+}

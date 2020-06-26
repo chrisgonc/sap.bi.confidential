@@ -1,0 +1,8 @@
+{
+  "sap.bi.mla.rawdata.synonym.sd::MERCHANT": {
+    "target": {
+      "object": "MERCHANT",
+      "schema": "SOURCEDATA"
+    }
+  }
+}

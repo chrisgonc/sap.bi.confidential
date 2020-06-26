@@ -1,0 +1,14 @@
+{
+    "role": {
+        "name": "sap.bi.mla.confidential.privilege::analytics.all",
+			"object_privileges":[  
+			{"name":"sap.bi.mla.rawdata.sv.mm::VW_CARD","type":"VIEW","privileges":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.mm::VW_CARD_TRANSACTIONS","type":"VIEW","privileges":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.mm::VW_CARD_TRANSACTIONS_HOTWARM","type":"VIEW","privileges":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.mm::VW_CARD_TRANSACTIONS_COLD","type":"VIEW","privileges":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.pm::VW_CUSTOMER","type":"VIEW","privileges":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.pm::VW_CUSTOMER_ANONYMIZED","type":"VIEW","privileges":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.sd::VW_MERCHANT","type":"VIEW","privileges":[ "SELECT" ]}
+			]
+    }
+}

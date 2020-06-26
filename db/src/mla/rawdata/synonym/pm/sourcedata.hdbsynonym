@@ -1,0 +1,8 @@
+{
+  "sap.bi.mla.rawdata.synonym.pm::CUSTOMER": {
+    "target": {
+      "object": "CUSTOMER",
+      "schema": "SOURCEDATA"
+    }
+  }
+}

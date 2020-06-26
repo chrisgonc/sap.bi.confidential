@@ -1,0 +1,3 @@
+VIEW "sap.bi.mla.rawdata.sv.mm::VW_CARD_TRANSACTIONS_HOTWARM" AS
+SELECT *
+FROM "sap.bi.mla.rawdata.synonym.mm::CARD_TRANSACTIONS_HOTWARM"

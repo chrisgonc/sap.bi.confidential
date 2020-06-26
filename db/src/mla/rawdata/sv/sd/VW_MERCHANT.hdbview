@@ -1,0 +1,3 @@
+VIEW "sap.bi.mla.rawdata.sv.sd::VW_MERCHANT" AS
+SELECT *
+FROM "sap.bi.mla.rawdata.synonym.sd::MERCHANT"
