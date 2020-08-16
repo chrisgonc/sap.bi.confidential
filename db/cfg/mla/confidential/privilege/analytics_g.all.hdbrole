@@ -8,7 +8,9 @@
 			{"name":"sap.bi.mla.rawdata.sv.mm::VW_CARD_TRANSACTIONS_COLD","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]},
 			{"name":"sap.bi.mla.rawdata.sv.pm::VW_CUSTOMER","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]},
 			{"name":"sap.bi.mla.rawdata.sv.pm::VW_CUSTOMER_ANONYMIZED","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]},
-			{"name":"sap.bi.mla.rawdata.sv.sd::VW_MERCHANT","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]}
+			{"name":"sap.bi.mla.rawdata.sv.sd::VW_MERCHANT","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.mm::VW_SQLSERVER_TAG","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]},
+			{"name":"sap.bi.mla.rawdata.sv.mm::VW_EXCEL_TAX_20000","type":"VIEW","privileges_with_grant_option":[ "SELECT" ]}
 			]
     }
 }

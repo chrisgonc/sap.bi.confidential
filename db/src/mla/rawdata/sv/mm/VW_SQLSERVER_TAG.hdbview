@@ -1,0 +1,3 @@
+VIEW "sap.bi.mla.rawdata.sv.mm::VW_SQLSERVER_TAG" AS
+SELECT *
+FROM "sap.bi.mla.rawdata.synonym.mm::SQLSERVER_TAG"

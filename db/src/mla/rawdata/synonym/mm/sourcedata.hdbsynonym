@@ -22,5 +22,17 @@
       "object": "CARD_TRANSACTIONS_HOTWARM",
       "schema": "SOURCEDATA"
     }
+  },
+  "sap.bi.mla.rawdata.synonym.mm::SQLSERVER_TAG": {
+    "target": {
+      "object": "SQLSERVER_Tag",
+      "schema": "SOURCEDATA"
+    }
+  },
+  "sap.bi.mla.rawdata.synonym.mm::EXCEL_TAX_20000": {
+    "target": {
+      "object": "EXCEL_Tax_20000",
+      "schema": "SOURCEDATA"
+    }
   }
 }

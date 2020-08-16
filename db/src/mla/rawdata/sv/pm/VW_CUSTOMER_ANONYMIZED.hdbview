@@ -29,4 +29,4 @@ WITH ANONYMIZATION (ALGORITHM 'DIFFERENTIAL_PRIVACY'
   COLUMN CUST_ID PARAMETERS '{"is_sequence": true}'
   COLUMN CUST_INCOME PARAMETERS '{"is_sensitive":true, "epsilon":5, "sensitivity":69000}');
   
---REFRESH VIEW "sap.bi.mla.rawdata.sv.pm::VW_CUSTOMER_ANONYMIZED" ANONYMIZATION; --runs in less than 7 seconds
+--REFRESH VIEW "sap.bi.mla.rawdata.sv.pm::VW_CUSTOMER_ANONYMIZED" ANONYMIZATION; --runs connected in HDI confidential and it runs in less than 7 seconds

@@ -20,7 +20,7 @@ resources:
  - name: hdi_db
    parameters:
      config:
-       database_id: e5134708-f60d-4943-9b69-14ef8cb16ee5
+       database_id: d1c353c3-ea74-4e9a-bda5-897d70fd7376
        schema: confidential
        makeUniquename: false
      service-name: sap.bi.confidential
@@ -29,7 +29,7 @@ resources:
    type: com.sap.xs.hdi-container
  - name: cross-container-service-1
    parameters:
-      service-name: source-schema-devqa
+      service-name: sourceschema
    properties:
       the-service-name: ${service-name}
    type: org.cloudfoundry.existing-service
