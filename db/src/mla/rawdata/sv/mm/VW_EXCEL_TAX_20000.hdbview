@@ -1,3 +1,6 @@
 VIEW "sap.bi.mla.rawdata.sv.mm::VW_EXCEL_TAX_20000" AS
-SELECT *
+SELECT
+	"Transaction ID",
+	"Tax",
+	"Description"
 FROM "sap.bi.mla.rawdata.synonym.mm::EXCEL_TAX_20000"
